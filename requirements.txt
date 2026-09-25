@@ -1,0 +1,6 @@
+yfinance
+python-telegram-bot[job-queue]
+nest_asyncio
+numpy
+pandas
+matplotlib
