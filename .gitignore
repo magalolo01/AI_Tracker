@@ -1,0 +1,28 @@
+# --- secrets: never commit these ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# --- this bot's persistent data (portfolios, alerts, settings, generated PDFs) ---
+# This is your live application data, not source code — see README.md for why it should not
+# be committed and where it should actually live on your host.
+data/
+
+# --- logs ---
+*.log
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

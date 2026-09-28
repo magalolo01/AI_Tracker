@@ -1,0 +1,18 @@
+# Built directly from the imports actually used in portfolio_analytics_terminal_bot.py.
+# Everything else it imports (warnings, io, os, re, json, datetime, typing) is Python's
+# standard library and needs no entry here.
+
+# Telegram bot framework (Application, handlers, ParseMode) — [job-queue] extra pulls in
+# APScheduler, required for application.job_queue.run_repeating/run_daily (alerts + daily report).
+python-telegram-bot[job-queue]==22.8
+
+# Market data
+yfinance==1.7.0
+
+# Data handling
+pandas>=2.2,<3.0
+numpy>=1.26,<3.0
+
+# Charts + PDF reports (matplotlib.backends.backend_pdf.PdfPages is part of matplotlib itself —
+# no separate PDF library like reportlab/weasyprint is used or required)
+matplotlib>=3.8,<4.0
