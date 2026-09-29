@@ -16,3 +16,6 @@ numpy>=1.26,<3.0
 # Charts + PDF reports (matplotlib.backends.backend_pdf.PdfPages is part of matplotlib itself —
 # no separate PDF library like reportlab/weasyprint is used or required)
 matplotlib>=3.8,<4.0
+fastapi
+uvicorn
+python-telegram-bot
