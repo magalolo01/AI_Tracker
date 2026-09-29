@@ -19,3 +19,4 @@ matplotlib>=3.8,<4.0
 fastapi
 uvicorn
 python-telegram-bot
+pip install -r requirements.txt
